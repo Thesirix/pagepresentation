@@ -1,5 +1,7 @@
 # 📂 Mon Portfolio
 
+![Portfolio Preview](./porfo1.png)
+
 ## 👨‍💻 À propos
 
 Enthousiaste et passionné par le monde de la programmation, j'ai fait de ma passion mon métier en devenant un développeur professionnel.
