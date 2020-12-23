@@ -1,41 +1,41 @@
-# 📂 Mon Portfolio
+# 📂 My Portfolio
 
 ![Portfolio Preview](./porfo1.png)
 
-## 👨‍💻 À propos
+## 👨‍💻 About Me
 
-Enthousiaste et passionné par le monde de la programmation, j'ai fait de ma passion mon métier en devenant un développeur professionnel.
+Enthusiastic and passionate about the world of programming, I turned my passion into my profession by becoming a professional developer.
 
-## 🚀 Mes spécialités
+## 🚀 My Specialties
 
-Ma spécialité ? La création de solutions innovantes dans les domaines du web et des applications mobiles.
+My specialty? Creating innovative solutions in the fields of web and mobile applications.
 
-Fort de mon expertise technique et de mon expérience, je mets mes compétences au service de projets variés et stimulants.
+With my technical expertise and experience, I put my skills to work on varied and stimulating projects.
 
-## 🛠️ Ce que je propose
+## 🛠️ What I Offer
 
-Que ce soit pour :
+Whether it is for:
 
-- 🌐 La conception d'un **site web dynamique**.
-- 📱 Le développement d'une **application mobile intuitive**.
-- 🎨 La création d'une **interface utilisateur conviviale**.
+- 🌐 Designing a **dynamic website**.
+- 📱 Developing an **intuitive mobile application**.
+- 🎨 Creating a **user-friendly interface**.
 
-Je suis là pour relever tous les défis !
+I am here to take on any challenge!
 
-## 💼 Disponibilité
+## 💼 Availability
 
-Flexible et ouvert aux opportunités, je suis disponible pour :
+Flexible and open to opportunities, I am available for:
 
-- des missions **freelance** ;
-- des projets **à long terme** en entreprise ;
-- des programmes d'**alternance** enrichissants.
+- **Freelance** missions.
+- **Long-term** corporate projects.
+- Enriching **work-study** (alternance) programs.
 
-## 🎯 Objectif
+## 🎯 Goal
 
-Mon objectif ? Contribuer au succès de chaque projet en apportant mon expertise et ma créativité.
+My goal? To contribute to the success of each project by bringing my expertise and creativity.
 
 ## 🤝 Contact
 
-Si vous recherchez un développeur passionné et polyvalent pour concrétiser vos idées, n'hésitez pas à me contacter.
+If you are looking for a passionate and versatile developer to bring your ideas to life, do not hesitate to contact me.
 
-✨ **Ensemble, faisons de vos projets une réalité innovante et performante.**
+✨ **Together, let's make your projects an innovative and high-performing reality.**
