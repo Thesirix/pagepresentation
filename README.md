@@ -1,4 +1,6 @@
-# 📂 My Portfolio
+# 📂 My First Portfolio (Archives)
+
+> **⚠️ Note:** This repository contains the code for my very first portfolio. It is a training project that marks my beginnings in development and showcases my skills at that time.
 
 ![Portfolio Preview](./porfo1.png)
 
