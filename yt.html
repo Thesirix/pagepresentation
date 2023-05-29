@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube 256 Downloader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <div class="portfolio-header">
+        <div class="texte-avec-ligne-verticale"
+        style="margin-left: 16px; margin-top: 22px; height: 45px">
+            <p class="portfolio-header-title">Renaud Mercier</p>
+        </div>
+        <a class="contact-button contact-button-portfolio"
+        href="mailto:renaud.d.mercier@gmail.com?subject=Contact%20depuis%20heroku">ME CONTACTER</a>
+
+    </div>
+
+    <!-- SECTION GRISE TITRE -->
+    <div class="section section-grise1" style="padding-top:20px">
+        <a class="portfolio-back" href="index.html">Retour</a>
+        <div class="separateur" style="margin-top:-12px;"></div>
+        <h1 class="portfolio">Portfolio</h1>
+        <h2 class="portfolio">Youtube 256 Downloader</h2>
+    </div>
+
+    <!-- SECTION CONTENU -->
+    <div class="section">
+        <div class="texte-avec-ligne-verticale">
+            <p>
+                <u>Technologies utilisées</u> : <b>PYTHON</b>
+                <br><br>
+                J’ai réalisé ce projet pour posséder un outils rapide et performant qui en temps normal nécessite des recherches sur internet et pour obtenir un resulat de piètre qualité.
+                <br><br>
+                Télécharger une musique sur youtube n'est en sois pas difficile, ici le but est obtenue la meilleur qualité sonore possible. Plus on a un systeme son de qualité plus on s'apperçoit des artéfacts de compression et des défauts de la musique diffusé.
+                Le probleme c'est que la plupart des "downloaders" youtube sur internet n'offre qu'une qualité sonore de 128 kbps.
+                <br><br>
+                Ici je me sert d'un analyseur spectral appelé Spek on voit clairement que le spectre sonore est tronqué à 16 kHz (représentation de l'encodage à 128 kbps) :
+                <br><br>
+                <div style="text-align: center; margin-top: 30px">
+                <img class="portfolio" src="baddd.png">
+            </div>
+            <br><br>
+            Mais la qualité sonore maximal de youtube est de 256 kbps, sois deux fois plus!
+            <br><br>
+            Ici le resultat obtenu grâce à mon application, la coupe se produit a 20 kHz (représentation de l'encodage à 256 kbps), la musique a plus de profondeur :
+            <div style="text-align: center; margin-top: 30px">
+                <img class="portfolio" src="spppekk.png">
+                </div>
+                <br><br>
+            Mon application selectionera toujours le Itag au bit rate le plus elevé (sur youtube le plus souvent un fichier webm) et le convertira en mp3 grâce à ffmpeg pour un maximum de compatibilité et une qualité optimale.
+            <br><br>
+            Mieux que des mots essayez l'application!
+            </p>
+            <span>
+            <a href="https://drive.google.com/file/d/1_xOxpA99JvyuCy85-xvGT64nWWmNz3Qd/view?usp=sharing" target="_blank"><img src="dl.png"></a>
+        </span>
+
+        <br><br>
+
+        A noter que le mp3 est un format compréssé destiné au transport ou au web. Ici à titre de comparaison voici l'analyse d'une capture audio d'un orchestre jouant du Vivaldi, on peut apercevoire des piques frôlant les 38 kHz
+        
+            <div style="text-align: center; margin-top: 30px">
+                <img class="portfolio" src="viv.jpg">
+            
+            </div>
+        </div>
+    </div>
+
+    <!-- FRAME -->
+    <iframe src="contact-frame.html" scrolling="no"/>  
+</body>
+</html>
