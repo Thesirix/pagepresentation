@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Web et Application pour restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <div class="portfolio-header">
+        <div class="texte-avec-ligne-verticale"
+        style="margin-left: 16px; margin-top: 22px; height: 45px">
+            <p class="portfolio-header-title">Renaud Mercier</p>
+        </div>
+        <a class="contact-button contact-button-portfolio"
+        href="mailto:renaud.d.mercier@gmail.com?subject=Contact%20depuis%20heroku">ME CONTACTER</a>
+
+    </div>
+
+    <!-- SECTION GRISE TITRE -->
+    <div class="section section-grise1" style="padding-top:20px">
+        <a class="portfolio-back" href="index.html">Retour</a>
+        <div class="separateur" style="margin-top:-12px;"></div>
+        <h1 class="portfolio">Portfolio</h1>
+        <h2 class="portfolio">Site Web et Application pour restaurant</h2>
+    </div>
+
+    <!-- SECTION CONTENU -->
+    <div class="section">
+        <div class="texte-avec-ligne-verticale">
+            <p>
+                Ce projet est un pack complet. C'est l'application d'un restaurant de pizza appairé à son site web dynamique. 
+                <br>
+                On peut modifier le menu dans base de données et tout se met à jour dans l'application et le site web.
+                <br><br>
+                <u>Détail technique</u> : L'application est codé en python avec le framework kivy, les pizzas sont créées via un dictionnaire de 4 clés (nom,ingredient,prix,végétarienne)
+                le contenu des dictionnaires est obtenue via le load d'un json crée avec une demande à l'API du site web. Le site web quand à lui est fabriqué grâce au framework django, les pages sont écrites en html et agencé en Css.<br> La base de donné peu être
+                reçu ou exporté en format db en étant géré par un lecteur SQlite.
+                <br><br>
+                <u>Technologies utilisées</u> : <b>Python, Kivy, Django,SQlite, Html, Css </b>
+
+            </p>
+            <div style="text-align: center; margin-top: 30px">
+                <div >
+                <img  class="portfolio" src="pizzain.png">
+            </div>
+                <img class="portfolio" src="pizzap.png">
+            
+            </div>
+            <br><br><br>
+            Nom du site : <a href="http://thesirix.pythonanywhere.com/" target="_blank">http://thesirix.pythonanywhere.com/</a>
+
+        </div>
+    </div>
+
+    <!-- FRAME -->
+    <iframe src="contact-frame.html" scrolling="no"/>  
+</body>
+</html>
