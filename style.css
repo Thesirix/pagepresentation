@@ -153,11 +153,16 @@ div.section-grise1 p {
 
 img.col-contenu {
     width: 40%;
+    height: 570px;
+    
+
 }
 
 div.col-contenu {
     width: 60%;
     padding-left: 16px;
+    display: flex;
+    
 }
 
 .float-right {
@@ -187,7 +192,7 @@ div.texte-avec-ligne-verticale {
 
 div.texte-avec-ligne-verticale p {
     margin-top: 0;
-    margin-left: 10px;
+    margin-left: 30px;
     
 }
 
@@ -271,6 +276,117 @@ img.portfolio {
 
 
 /* RESPONSIVE DESIGN : MOBILE */
+
+@media only screen and (max-width: 1400px) {
+
+
+    img.cover-profile {
+        height: 90px;
+        margin-top: 75px;
+        margin-left: -40px;
+    }
+    
+    h1 {
+        font-size: 38px;
+        margin-top: 6px;
+        margin-bottom: 0px;
+    }
+    
+    div.cover p {
+        margin-top: 2px;
+        font-size: 13px;
+    }
+
+    .section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    div.section-grise1 {
+        padding-bottom: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    img.col-contenu {
+        width: 100%;
+        height: 10%;
+       
+    }
+    
+    /* div.texte-avec-ligne-verticale p {
+        margin-top: 0;
+        margin-left: 150px;
+       
+        
+        
+    } */
+
+    div.col-contenu {
+        width: 100%;
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+
+    .col-portfolio {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    div.frame {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        box-shadow: none;
+    }
+
+    div.frame img {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 70px;
+    }
+
+    /* POSTFOLIO - MOBILE */
+    .portfolio-header-title {
+        font-size: 19px;
+        padding-top: 10px;
+        padding-left: 4px;
+    }
+
+    a.contact-button {
+        padding: 7px 12px;
+        margin-top: 22px;
+        font-size: 12px;
+    }
+
+    a.contact-button-portfolio {
+        right: 12px; 
+    }
+
+    h1.portfolio {
+        font-size: 40px;
+    }
+    
+    h2.portfolio {
+        font-size: 22px;
+    }
+
+    img.portfolio {
+        width: 100%;
+    }
+
+    .display-mobile {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
 @media only screen and (max-width: 767px) {
     img.cover-profile {
         height: 90px;
@@ -304,6 +420,8 @@ img.portfolio {
 
     img.col-contenu {
         width: 100%;
+        height: 10%;
+        margin-left:0px
     }
     
     div.col-contenu {
