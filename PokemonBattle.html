@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Battle</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <div class="portfolio-header">
+        <div class="texte-avec-ligne-verticale"
+        style="margin-left: 16px; margin-top: 22px; height: 45px">
+            <p class="portfolio-header-title">Renaud Mercier</p>
+        </div>
+        <a class="contact-button contact-button-portfolio"
+        href="mailto:renaud.d.mercier@gmail.com?subject=Contact%20depuis%20heroku">ME CONTACTER</a>
+
+    </div>
+
+    <!-- SECTION GRISE TITRE -->
+    <div class="section section-grise1" style="padding-top:20px">
+        <a class="portfolio-back" href="index.html">Retour</a>
+        <div class="separateur" style="margin-top:-12px;"></div>
+        <h1 class="portfolio">Portfolio</h1>
+        <h2 class="portfolio">Poke'mon Battle</h2>
+    </div>
+
+    <!-- SECTION CONTENU -->
+    <div class="section">
+        <div class="texte-avec-ligne-verticale">
+            <p class="app-description">Cette application en React permet de simuler des combats Pokémon en utilisant l'API Pokémon. Les utilisateurs peuvent sélectionner aléatoirement des attaques et faire s'affronter les Pokémon en les faisant glisser et déposer les uns sur les autres. De plus, en cliquant sur un Pokémon, son cri sera activé.</p>
+    </div>
+
+    <!-- PRÉREQUIS ET INSTALLATION -->
+    <div class="section">
+        <h2>Prérequis</h2>
+        <p>Node.js installé sur votre machine</p>
+        <p>Connexion Internet pour accéder à l'API Pokémon</p>
+    </div>
+
+    <div class="section">
+        <h2>Installation</h2>
+        <ol>
+            <li>Clonez ce dépôt sur votre machine.</li>
+            <li>Accédez au répertoire du projet dans votre terminal.</li>
+            <li>Exécutez la commande npm install pour installer les dépendances.</li>
+        </ol>
+    </div>
+
+    <!-- UTILISATION -->
+    <div class="section">
+        <h2>Utilisation</h2>
+        <ol>
+            <li>Lancez l'application en exécutant la commande npm start.</li>
+            <li>Ouvrez votre navigateur et accédez à l'adresse indiquée dans votre terminal.</li>
+            <li>Commencez à sélectionner les attaques et à faire combattre les Pokémon en les faisant glisser et déposer.</li>
+        </ol>
+    </div>
+
+    <!-- FONCTIONNEMENT -->
+    <div class="section">
+        <h2>Fonctionnement de l'application</h2>
+        <h3>Sélection aléatoire d'attaques</h3>
+        <p>L'application interroge l'API Pokémon au chargement pour obtenir une liste de Pokémon et de leurs attaques disponibles.</p>
+        <p>À chaque nouveau combat, deux attaques sont sélectionnées aléatoirement pour chaque Pokémon impliqué.</p>
+        
+        <h3>Combat en glisser-déposer</h3>
+        <p>Les Pokémon disponibles sont affichés à l'écran.</p>
+        <p>L'utilisateur peut sélectionner un Pokémon en le faisant glisser et déposer sur un autre.</p>
+        <p>Le combat commence automatiquement.</p>
+        
+        <h3>Déroulement du combat</h3>
+        <p>Les attaques infligent des dégâts à l'autre Pokémon, réduisant ses points de vie.</p>
+        
+        <h3>Activation des cris des Pokémon</h3>
+        <p>En cliquant sur un Pokémon, l'application joue le cri caractéristique de ce Pokémon.</p>
+        
+        <p>L'application vise à offrir une expérience interactive et divertissante aux utilisateurs, tout en leur permettant de découvrir les différents Pokémon et leurs capacités de combat.</p>
+            <div style="text-align: center; margin-top: 30px">
+                <div >
+                <img  src="./assets/images/pokeinst.png" style="width: 700px; height: 400px;" >
+            </div>
+                <img  src="./assets/images/fight.png" style="width: 700px; height: 400px;">
+            
+            </div>
+   
+
+        </div>
+        <section>
+            <h3>Technologies Utilisées:</h3>
+            <p>React, Js</p>
+            <br>
+            Github : <a href="https://github.com/Thesirix/Poke-mon-Battle" target="_blank">https://github.com/Thesirix/Poke-mon-Battle</a>
+        </section>
+    </div>
+
+    <!-- FRAME -->
+    <iframe src="contact-frame.html" scrolling="no"></iframe>  
+</body>
+</html>
