@@ -299,6 +299,12 @@ td img {
         margin-top: 75px;
         margin-left: -40px;
     }
+
+
+    span {
+        flex-direction: column;
+        align-items: center; 
+    }
     
     h1 {
         font-size: 38px;
