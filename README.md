@@ -1,6 +1,8 @@
 Enthousiaste et passionné par le monde de la programmation,
 j'ai fait de ma passion mon métier en devenant un développeur professionnel.
 
+![Aperçu de l'application](./porfo1.png)
+
 Ma spécialité ? La création de solutions innovantes dans les domaines du web et des applications mobiles.
 
 Fort de mon expertise technique et de mon expérience,
