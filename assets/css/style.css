@@ -207,7 +207,42 @@ div.barre-verticale {
 
 .col-portfolio {
     width: 47%;
+    display: inline-flex;
+    vertical-align: top;
+    align-items: stretch;
+}
 
+.col-portfolio .barre-verticale {
+    flex: 0 0 4px;
+    height: auto;
+    margin-right: 8px;
+}
+
+.col-portfolio-body {
+    flex: 1;
+    min-width: 0;
+}
+
+.col-portfolio-body img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    margin-top: 50px;
+}
+
+.col-portfolio-caption {
+    text-align: center;
+}
+
+.contact-frame-table {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.contact-frame-table img {
+    flex-shrink: 0;
 }
 
 div.frame {
@@ -273,12 +308,6 @@ img.portfolio {
 
 .display-mobile {
     display: none;
-}
-td img {
-    width: 100%;
-    height: auto;
-    max-height: 200px; /* Choisissez une hauteur maximale pour toutes les images */
-    object-fit: cover; /* Assurez-vous que les images sont rognées pour conserver les proportions */
 }
 
 
